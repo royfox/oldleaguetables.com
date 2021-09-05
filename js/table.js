@@ -65,6 +65,7 @@ function populate_select(data) {
         }
     }
     const autoCompleteJS = new autoComplete(config);
+    $('#autoComplete').show();
 }
 
 
