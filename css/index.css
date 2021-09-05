@@ -1,0 +1,33 @@
+
+h2.title {
+    color: #f7aa63;
+}
+
+.noUi-connect {
+    background: #ffe3a3;
+}
+.noUi-tooltip {
+    border: 0;
+    color: #999;
+}
+#form {
+    margin-bottom:20px;
+}
+
+#slider {
+    margin:20px 0;
+}
+
+#footer {
+    margin-top:40px;
+    color: #999;
+}
+#footer a {
+    color: #666;
+    font-weight: bold;
+}
+
+#season_title {
+    font-weight:bold;
+    font-size:18px;
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Old League Tables</title>
+  <meta name="description" content="Display football leagues tables for historical seasons">
+  <meta name="author" content="Roy Fox">
+
+  <meta property="og:title" content="Old League Tables">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Display football leagues tables for historical seasons">
+  <link rel="stylesheet" href="css/nouislider.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bm/dt-1.11.1/datatables.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/css/autoComplete.01.min.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <div class="container is-full" style="width:700px;margin: 20px auto;" align="center">
+    <h2 class="title">Old League Tables</h2>
+    <div id="form">
+      <input id="autoComplete">
+    </div>
+    <h3 id="season_title"></h3>
+    <div id="slider_container">
+      <div id="slider"></div>
+    </div>
+    <table id="table" class="table is-striped is-narrow" style="width:700px; margin: 20px auto;"></table>
+    <p id="footer"><small>Made by <a href="http://www.royfox.co.uk">Roy Fox</a>. Data from <a href="http://football-data.co.uk/">football-data.co.uk</a></small></p>
+  </div>
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/autoComplete.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/bm/dt-1.11.1/datatables.min.js"></script>
+  <script src="js/nouislider.js"></script>
+  <script src="js/table.js"></script>
+</body>
+</html>
+
+
+
+
